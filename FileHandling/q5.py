@@ -1,0 +1,5 @@
+#  WAPP TO OPEN  AN EXITING FILE "STUDENT.TXT" AND READ ONLY FIRST 10 CHARECTER FROM THE FILE AND PRINTED ON THE SCREEN
+f=open("student.txt",'r')
+data=f.read(10)
+print(data)
+f.close()

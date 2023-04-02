@@ -1,0 +1,8 @@
+f=open("www.txt",'w')
+s=input("input a string")
+f.write(s)
+f.close()
+f=open("www.txt",'r')
+tex=f.read()
+print(tex)
+f.close()

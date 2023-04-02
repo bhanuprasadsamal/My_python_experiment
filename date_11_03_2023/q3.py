@@ -1,0 +1,8 @@
+f=open("sec_c.txt",'w')
+f.write("sec c student are total 65\n")
+f.write("sec c student are good\n ")
+f.write("sec c is in room 4\n ")
+f.write("sec c fpp techer is rashmita mam \n")
+f.write("we  are happy")
+print("this is complet")
+f.close()
